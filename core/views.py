@@ -1,8 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.contrib import messages
+
 def home(request):
-    return render(request,'core/main.html')
+    return render(request,'core/home.html')
 
 def register_user(request):
     if request.method=="POST":

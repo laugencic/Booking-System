@@ -1,0 +1,8 @@
+#nav{
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+}
+#nav ul li {
+    text-decoration: none;
+}
