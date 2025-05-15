@@ -1,8 +1,59 @@
 #nav{
     display: flex;
     flex-direction: row;
-    background-color: antiquewhite;
+    background-color:#001F3F;
+    margin: 0;
+    width:100%;
+}
+
+
+#content{
+    height: 100vh;
+}
+
+#nav a{
+    color:white;
 }
 #nav ul li {
-    text-decoration: none;
+    list-style: none;
 }
+
+footer{
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cimg{
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+    object-position: center;
+    background-color: black;
+    object-fit: cover;
+    
+}
+/* 
+#buttons a{
+    text-decoration:none;
+    color:black;
+    
+}
+#buttons a:hover{
+    color:white;
+}
+#buttons button{
+    padding: 10px;
+    border-radius:20px;
+    background-color: #001F3F;
+    
+}
+#buttons button:hover{
+    color:white;
+    background-color: black;
+} */
